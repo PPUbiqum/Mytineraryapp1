@@ -1,0 +1,22 @@
+<div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Find your perfect Trip, designed by Insiders who know and love their cities.
+          </p>
+          <div className="browse">
+            <p>Start browsing</p>
+              <img src={pic} className ="Browse-button" alt="circle" />
+          </div>
+          <div>
+            <p>Want to build you own MYtinerary?</p>
+            <div className="links">
+            <button>Log in </button>
+            <button>Create Account</button>
+            </div>
+          </div>
+          <div className="home">
+              <img src={home} className = "home-button" alt="home"/>
+          </div>
+        </header>
+      </div>
